@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #2cbcff, #2668c5);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.tracker-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 20px;
+    width: 320px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #141414;
+}
+
+.btn-group button {
+    font-size: 14px;
+}
+
+.graph-box {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    width: 500px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
